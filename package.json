@@ -1,0 +1,16 @@
+{
+  "name": "license-project",
+  "version": "1.0.0",
+  "description": "Something example open source project use the SPDX licenses",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "koa": "^2.11.0",
+    "koa-router": "^7.4.0",
+    "request": "^2.88.0"
+  }
+}
