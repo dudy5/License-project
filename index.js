@@ -182,7 +182,8 @@ function getRepoList(callback){
         'User-Agent': 'request'
       },
       qs: {
-        q: 'LICENSE:' + LicenseList[i]
+        // q: 'LICENSE:' + LicenseList[i] + ' language:JavaScript'
+        q: 'LICENSE:' + LicenseList[i]'
       }
     }, function (error, response, body) {
       // console.log('error:', error); // Print the error if one occurred
